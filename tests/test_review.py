@@ -4,7 +4,7 @@ a unittest module for the review.py module
 """
 import unittest
 from models.review import Review
-from models.__init__ import storage
+from models import storage
 from datetime import datetime as dt
 import os
 from json import load

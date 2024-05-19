@@ -4,7 +4,7 @@ a unittest module for the state.py module
 """
 import unittest
 from models.state import State
-from models.__init__ import storage
+from models import storage
 from datetime import datetime as dt
 import os
 from json import load

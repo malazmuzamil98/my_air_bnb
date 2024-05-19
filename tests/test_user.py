@@ -4,7 +4,7 @@ a unittest module for the user.py module
 """
 import unittest
 from models.user import User
-from models.__init__ import storage
+from models import storage
 from datetime import datetime as dt
 import os
 from json import load

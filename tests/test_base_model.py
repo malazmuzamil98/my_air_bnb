@@ -7,7 +7,7 @@ import sys
 import uuid
 from models.base_model import BaseModel
 from datetime import datetime
-from models.__init__ import storage
+from models import storage
 import os
 from json import load
 

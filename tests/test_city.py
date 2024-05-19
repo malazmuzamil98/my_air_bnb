@@ -4,7 +4,7 @@ a unittest module for the city.py module
 """
 import unittest
 from models.city import City
-from models.__init__ import storage
+from models import storage
 from datetime import datetime as dt
 import os
 from json import load
